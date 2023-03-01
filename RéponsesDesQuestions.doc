@@ -23,4 +23,23 @@ Sous-part 3.3.2 Ex 4 : 1) la feuille de style permet de connâitre le style que 
 4) Le fichier timer.png est une image d'illustration.
 
 
+Partie 4 : 
+Sous-Partie 2 : 2) La première ligne nous dit que c'est une requète GET demandant le contenu du dossier request/dump utilisant HTTP/1.1
+La deuxième ligne nous annonce que l'hôte est demo.ad-urca.univ-reims.fr
+La ligne suivante donner l'utilisateur
+La ligne suivante montre les différents types acceptés pour la réponse : text, html, xhtml+xml, webp,...
+La ligne suivante énonce la langue : en-US ou en.
+La ligne suivante propose deux sortes de cryptage acceptés : gzip et deflate.
+La ligne suivante demande que la connection reste active.
+La dernière ligne demande une amélioration de la sécurité de la requête.
+3/4) Il y a eu deux nouvelles lignes : ces deux lignes concernent le cache, en effet, nous avons rechargé la page cela aurait dû générer un cache pour ne pas perdre les données qui auraient pu être enregistrée. Mais l'actualisation étant forcée, il n'y a pas de cache
+5/6) Cette fois il y a un cache.
+7/8/9/10) On a forcé le fait de ne pas avoir de cache cela s'affiche donc comme si on avait fait un reload forcé.
+
+Sous-Partie 2.1
+Même requête qu'avant sauf qu'il y a une référence au lien du site où l'on était juste avant.
+
+Sous-Partie 2.2
+
+
 
