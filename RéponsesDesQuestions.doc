@@ -1,0 +1,26 @@
+﻿Partie 2 : 1) 1. https://roundcube.univ-reims.fr/etud/?_task=mail&_action=compose&_id=114118695963ff4a32053a1
+
+scheme ":" ["//" [userinfo "@"] host [":" port]
+] path ["?" query] ["#" fragment]
+
+2. http://ftp.sunet.se/
+3. file:///tmp
+
+2) 1. https://example.com/
+2. https://www.iut-rcc.fr/media-files/30677/but-info.pdf
+3. https://iut-info.univ-reims.fr/users/cutrona/intranet/installation-configuration/ubuntu-opennebula/index.html#objectifs-de-la-seance
+4. http://demo.ad-urca.univ-reims.fr/?info
+5. mysql://app:!ChangeMe!@127.0.0.1:3306/app?serverVersion=8&charset=utf8mb4
+6. https://www.univ-reims.fr/formation/catalogue-de-formation/but-informatique,23515,38949.html?args=R9qFsCnMmKDtxCa17YTDkHVqaqbfYRXwwTnCVt2witCDUIiVoUdkeMDp%2AXGEGm2SMIhvMbuZ3_kOrRxvJlk6dOorIryuNioRCyFFyPAvhl9tCdwYdtHRrwAvNC1tDg_H&formation_id=17#formationDetailDecriptions
+
+
+Partie 3 : sous-part 3.3.1
+Ex 5 : 1) favicon.ico	2) de type html	3) Ce fichier nous donne l'affichage de la page.
+
+Sous-part 3.3.2 Ex 4 : 1) la feuille de style permet de connâitre le style que doit avoir la page
+2) Le fichier correction.js permet de donner les différents programmes de la page.
+3) Le fichier URI_syntax_diagram.svg est une image vectorielle d'illustration.
+4) Le fichier timer.png est une image d'illustration.
+
+
+
