@@ -40,6 +40,76 @@ Sous-Partie 2.1
 Même requête qu'avant sauf qu'il y a une référence au lien du site où l'on était juste avant.
 
 Sous-Partie 2.2
+3) Il s'agit de la méthode get indiquée dans le form.
+5) Elles sont indiquées directement dans l'addresse.
+7) A la fin de l'adresse, le donotsubmit est égal désormais à ou ne pas soumettre.
+8) Cela change en effet à chaque fois les différents résultats.
+
+Sous-Partie 2.3
+Cette requète ressemble beaucoup à la précédente sauf que c'est indépendant des réponses données c'est les réponses par défaut.
+
+Sous-Partie 2.4
+3) Toujours dans le form de ce fieldset.
+5) Cette entête est nécessaire pour indiquer que la dernière ligne donne les réponses du formulaire.
+6) Elles sont situées à la toute fin : alpha=2&beta=Du+texte+%C3%A9crit+en+fran%C3%A7ais&mysel=2&dosubmit=soumettre
+7) La grande différence est que les réponses ne sont plus dans l'adresse mais dans la requête html elle-même.
+
+Sous-Partie 2.5
+3) Il y a maintenant un champ enctype initialisé à "multipart/form-data"
+4) Le nouveau champ est l'import d'un fichier de 30ko maximum.
+6) Les réponses sont maintenant mis ligne par ligne et traduites, de plus le fichier est décrit par son nom et
+	son type.
+7) Cela permet de connaître le type de fichier pour le décrypter.
+8) Cela permet de savoir le ou les endroit où il y a un ou des fichiers.
+9) C'est plus visuel
+11) Le fichier est décris par sa version, son type, son nom, des eventuels commentaires, son icone et par son contenu.
+
+
+Sous-Partie 4.4.2:
+7) Il y a la partie présentation : GET / HTTP/1.1;  La partie hôte : Host: example.com;  La partie de connection : Connection: close et une dernière partie avec rien du tout
+8) Il y a la partie présentation, puis les paramètres de requête, les paramètres du fichier et le fichier html.
+9) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
