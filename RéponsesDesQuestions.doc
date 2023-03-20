@@ -68,8 +68,24 @@ Sous-Partie 2.5
 Sous-Partie 4.4.2:
 7) Il y a la partie présentation : GET / HTTP/1.1;  La partie hôte : Host: example.com;  La partie de connection : Connection: close et une dernière partie avec rien du tout
 8) Il y a la partie présentation, puis les paramètres de requête, les paramètres du fichier et le fichier html.
-9) 
+9) Passage au port 443 pour que ça fonctionne.
+10) 	Content-Type indique le type du fichier transmit par l'hôte lors de la requête, dans ce cas, il s'agit d'un document
+		texte de type html.
+	Last-Modified indique la date et l'heure à laquelle le fichier transmit a été modifié pour la dernière fois.
+		Dans notre cas, le fichier a été modifié il y a plus de 3 ans : le Jeudi 17 octobre 2019 à 7 heure 
+		18 minutes et 36 secondes (GMT).
+	Content-Length indique le nombre de caractères du fichier transmit, en l'occurence : 1256. 
 
+
+Sous-Partie 4.5.2:
+2) L'adresse IP du serveur de M. Cutrona est 10.31.6.118.
+5) 10.31.6.118 pour M. Arganini aussi. On peut en conclure que node16 est un serveur web, que web-prod est un 
+serveur virtuel de node16, et que tous les serveurs personnels de l'iut sont des serveurs virtuels de web-prod.
+6) Encore une fois, 10.31.6.118 pour M. Jonquet.
+7) Et aussi 10.31.6.118 pour moi.
+8) L'adresse 10.31.6.118 
+
+Sous-Partie 4.6.1:
 
 
 
