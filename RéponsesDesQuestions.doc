@@ -86,46 +86,47 @@ serveur virtuel de node16, et que tous les serveurs personnels de l'iut sont des
 8) L'adresse 10.31.6.118 
 
 Sous-Partie 4.6.1:
+1)  "GET / HTTP/1.0
+Host: 10.31.6.118
+Connection: close
+{retour à la ligne}
+"
+3)403
+4) Ce code signifie que la page recherchée n'est pas accessible, que je ne suis pas autorisé à y accéder.
+En fait c'est surtout que ce serveur sert au département informatique pour acceuilir les seveurs des étudiants 
+et des professeurs.
+5) Type : Apache, Version : 2.4.6
+6) CentOS
+
+Sous-Partie 4.6.2:
+1)  "GET / HTTP/1.0
+Host: cutrona
+Connection: close
+{retour à la ligne}
+"
+2)Le code est maintenant de 200, on a accès à la page de Monsieur Cutrona. Le code html est donc celui de sa page.
 
 
+Sous-Partie 4.6.3:
+1)"GET / HTTP/1.1
+Host: 10.31.6.118
+{retour à la ligne}
+"
+3)403
+4)Cela montre que la connection ne se termine pas tout de suite.
+5)"GET / HTTP/1.1
+Host: 10.31.6.118
+Connection: close
+{retour à la ligne}
+"
+7)"Connection: close" s'est rajouté.
+10) Je ne sais pas
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Sous-partie 4.6.4 :
+1)"GET /bonjour.html HTTP/1.1
+Host: demo.ad-urca.univ-reims.fr
+Connection: close
+{retour à la ligne}
+"
+2)Voir fichier Response4.6.4-2.txt pour la réponse de la requête.
 
